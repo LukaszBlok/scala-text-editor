@@ -1,6 +1,6 @@
 # Scala Text Editor
 
-A rich text editor built in Scala using Scala Swing. Supports multiple tabs, text formatting, spell checking via Aspell, and file export to RTF, PDF, and DOCX formats.
+A rich text editor built in Scala using Scala Swing. Supports multiple tabs, text formatting, spell checking via Aspell, and saving/opening files in RTF format.
 
 ## Features
 
@@ -10,7 +10,7 @@ A rich text editor built in Scala using Scala Swing. Supports multiple tabs, tex
 - Find & Replace with regex support
 - Spell checking via Aspell (Polish dictionary supported)
 - Save / Open files
-- Export to: RTF, PDF, DOCX
+- Save / Open files in RTF format
 - Clipboard operations: cut, copy, paste
 - Keyboard shortcuts
 
@@ -79,8 +79,8 @@ sbt run
 | Library | Purpose |
 |---|---|
 | scala-swing | GUI framework |
-| iTextPDF | PDF export |
-| Apache POI | DOCX export |
+| iTextPDF | Declared dependency (not yet used in code) |
+| Apache POI | Declared dependency (not yet used in code) |
 | Play JSON | JSON handling |
 | Logback / SLF4J | Logging |
 | JNA | Native system integration |

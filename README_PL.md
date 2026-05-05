@@ -1,6 +1,6 @@
 # Edytor Tekstu w Scali
 
-Bogaty edytor tekstu napisany w Scali z wykorzystaniem Scala Swing. Obsługuje wiele zakładek, formatowanie tekstu, sprawdzanie pisowni przez Aspell oraz eksport plików do formatów RTF, PDF i DOCX.
+Bogaty edytor tekstu napisany w Scali z wykorzystaniem Scala Swing. Obsługuje wiele zakładek, formatowanie tekstu, sprawdzanie pisowni przez Aspell oraz zapisywanie i otwieranie plików w formacie RTF.
 
 ## Funkcjonalnosci
 
@@ -9,8 +9,7 @@ Bogaty edytor tekstu napisany w Scali z wykorzystaniem Scala Swing. Obsługuje w
 - Obsługa cofania / ponawiania operacji (Undo / Redo)
 - Znajdz i zamien z obsługa wyrazen regularnych
 - Sprawdzanie pisowni przez Aspell (obsługa słownika polskiego)
-- Zapisywanie / otwieranie plikow
-- Eksport do: RTF, PDF, DOCX
+- Zapisywanie / otwieranie plików w formacie RTF
 - Operacje schowka: wytnij, kopiuj, wklej
 - Skroty klawiszowe
 
@@ -79,8 +78,8 @@ sbt run
 | Biblioteka | Zastosowanie |
 |---|---|
 | scala-swing | Framework GUI |
-| iTextPDF | Eksport do PDF |
-| Apache POI | Eksport do DOCX |
+| iTextPDF | Zadeklarowana zależność (nieużywana w kodzie) |
+| Apache POI | Zadeklarowana zależność (nieużywana w kodzie) |
 | Play JSON | Obsługa formatu JSON |
 | Logback / SLF4J | Logowanie |
 | JNA | Integracja z systemem natywnym |
